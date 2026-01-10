@@ -1,4 +1,4 @@
-# TikTok Security Testing Tool with Advanced AI | For Educational Purposes Only
+# Facebook Security Testing Tool with Advanced AI | For Educational Purposes Only
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![AI](https://img.shields.io/badge/AI-Enabled-brightgreen)
@@ -190,13 +190,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Python 3.8 or higher
 - pip package manager
 - Active internet connection
-- TikTok developer account (for authorized testing)
+- Facebook developer account (for authorized testing)
 
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/HoffmannAlex/Hack-TikTok-Account-with-AI.git
-cd tiktok-security-tester
+git clone https://github.com/HoffmannAlex/Hack-Facebook-Account-with-AI.git
+cd Facebook-security-tester
 ```
 
 ### Step 2: Create a Virtual Environment (Recommended)
@@ -278,43 +278,43 @@ This will display the available command-line options and usage instructions.
 
 ```bash
 # Run a security test with default configuration
-python tiktok_security_tester.py --username target_username
+python Facebook_security_tester.py --username target_username
 
 # Specify a custom configuration file
-python tiktok_security_tester.py --username target_username --config custom_config.json
+python Facebook_security_tester.py --username target_username --config custom_config.json
 ```
 
 ### Anonymity and Privacy Options
 
 ```bash
 # Use Tor network for anonymity
-python tiktok_security_tester.py --username target_username --use-tor
+python Facebook_security_tester.py --username target_username --use-tor
 
 # Use a custom proxy list
-python tiktok_security_tester.py --username target_username --proxy-list proxies.txt
+python Facebook_security_tester.py --username target_username --proxy-list proxies.txt
 ```
 
 ### Performance Control
 
 ```bash
 # Set maximum number of attempts
-python tiktok_security_tester.py --username target_username --max-attempts 500
+python Facebook_security_tester.py --username target_username --max-attempts 500
 
 # Set custom delays between attempts (in seconds)
-python tiktok_security_tester.py --username target_username --min-delay 2.0 --max-delay 5.0
+python Facebook_security_tester.py --username target_username --min-delay 2.0 --max-delay 5.0
 
 # Enable verbose mode for more details
-python tiktok_security_tester.py --username target_username --verbose
+python Facebook_security_tester.py --username target_username --verbose
 ```
 
 ### Results Management
 
 ```bash
 # Specify a custom output file
-python tiktok_security_tester.py --username target_username --output results/audit_2026.json
+python Facebook_security_tester.py --username target_username --output results/audit_2026.json
 
 # Resume a previous test from a results file
-python tiktok_security_tester.py --resume results/audit_2026.json
+python Facebook_security_tester.py --resume results/audit_2026.json
 ```
 
 ---
@@ -325,12 +325,12 @@ python tiktok_security_tester.py --resume results/audit_2026.json
 
 ```json
 {
-    "client_key": "YOUR_TIKTOK_CLIENT_KEY",
-    "client_secret": "YOUR_TIKTOK_CLIENT_SECRET",
+    "client_key": "YOUR_Facebook_CLIENT_KEY",
+    "client_secret": "YOUR_Facebook_CLIENT_SECRET",
     "redirect_uri": "https://your-callback-url.com/callback",
-    "api_base_url": "https://open-api.tiktok.com/",
-    "auth_url": "https://www.tiktok.com/auth/authorize/",
-    "token_url": "https://open-api.tiktok.com/oauth/access_token/"
+    "api_base_url": "https://open-api.Facebook.com/",
+    "auth_url": "https://www.Facebook.com/auth/authorize/",
+    "token_url": "https://open-api.Facebook.com/oauth/access_token/"
 }
 ```
 
@@ -339,10 +339,10 @@ python tiktok_security_tester.py --resume results/audit_2026.json
 You can also configure the application using environment variables:
 
 ```bash
-export TIKTOK_USERNAME=target_username
-export TIKTOK_MAX_ATTEMPTS=1000
-export TIKTOK_USE_TOR=true
-python tiktok_security_tester.py
+export Facebook_USERNAME=target_username
+export Facebook_MAX_ATTEMPTS=1000
+export Facebook_USE_TOR=true
+python Facebook_security_tester.py
 ```
 
 ---
@@ -365,10 +365,10 @@ python tiktok_security_tester.py
 
 ### Logs and Debugging
 
-Logs are saved to `tiktok_security_test.log` by default. For more detailed debugging:
+Logs are saved to `Facebook_security_test.log` by default. For more detailed debugging:
 
 ```bash
-python tiktok_security_tester.py --username target_username --log-level DEBUG
+python Facebook_security_tester.py --username target_username --log-level DEBUG
 ```
 
 ---
