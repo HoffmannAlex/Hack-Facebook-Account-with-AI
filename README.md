@@ -32,7 +32,7 @@ By using this software, you acknowledge that unauthorized access to computer sys
 
 ### Facebook Security Testing Tool with Advanced AI
 
-This advanced cybersecurity tool demonstrates how artificial intelligence can be used to identify password vulnerabilities in social media accounts. Specifically designed for Facebook, this tool showcases various security testing methodologies while emphasizing the importance of strong authentication practices.
+This advanced cybersecurity tool demonstrates how artificial intelligence can be used to hack passwords in social media accounts. Specifically designed for Facebook, this tool showcases various security testing methodologies while emphasizing the importance of strong authentication practices.
 
 ### Key Features
 
