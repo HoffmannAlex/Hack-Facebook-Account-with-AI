@@ -136,10 +136,6 @@ Edit `facebook_config.json` to customize:
 - All sensitive data is handled securely
 - Clear logging of all actions for accountability
 
-## 🤝 Contributing
-
-Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
